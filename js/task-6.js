@@ -17,7 +17,7 @@ function createBoxes(amount) {
     div.style.width = `${size}px`;
     div.style.height = `${size}px`;
     div.style.backgroundColor = getRandomHexColor();
-    div.style.marginBottom = '10px'; 
+  
     boxesContainer.appendChild(div);
   }
 }
