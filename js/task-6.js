@@ -4,9 +4,7 @@ function getRandomHexColor() {
   const colors = ['#799CD2', '#8CB9D4', '#ADE1D1', '#D1EBDE', '#8EBFA7'];
   return colors[Math.floor(Math.random() * colors.length)];
 }
-// function getRandomHexColor() {
-//   return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
-// }
+
 
 function createBoxes(amount) {
   const boxesContainer = document.getElementById('boxes');
