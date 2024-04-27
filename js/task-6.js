@@ -8,16 +8,16 @@ function getRandomHexColor() {
 
 function createBoxes(amount) {
   const boxesContainer = document.getElementById('boxes');
-  // Очищаємо контейнер перед створенням нових елементів
+  
   boxesContainer.innerHTML = '';
 
   for (let i = 0; i < amount; i++) {
     const div = document.createElement('div');
-    const size = 30 + i * 10; // Розмір збільшується на 10px з кожним новим елементом
+    const size = 30 + i * 10; 
     div.style.width = `${size}px`;
     div.style.height = `${size}px`;
     div.style.backgroundColor = getRandomHexColor();
-    div.style.marginBottom = '10px'; // Додаємо невеликий відступ між елементами
+    div.style.marginBottom = '10px'; 
     boxesContainer.appendChild(div);
   }
 }
