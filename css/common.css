@@ -11,6 +11,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  
 }
 
 .item  {
@@ -226,7 +227,7 @@ margin-left: 24px;
   align-items: center;
 }
 
-p, color{
+p, .color{
   color: #2E2F42;
   font-family: Montserrat;
   font-size: 16px;
@@ -321,4 +322,9 @@ background: #FF7070;
 
 #boxes div {
   
+}
+html {
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
