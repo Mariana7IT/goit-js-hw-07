@@ -29,7 +29,7 @@ const images = [
     const galleryList = document.querySelector('.gallery');
 
 const imagesElements = images.map(image => {
-        
+    
     const listItem = document.createElement('li');
     const imageElement = document.createElement('img');
 
