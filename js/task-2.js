@@ -41,11 +41,3 @@ const imagesElements = images.map(image => {
 galleryList.append(...imagesElements);
     
 console.log();
-
-// const gallery = document.querySelector('.gallery');
-
-// const imageElements = images.map(image => {
-//   return `<li><img src="${image.url}" alt="${image.alt}" /></li>`;
-// });
-
-// gallery.insertAdjacentHTML('beforeend', imageElements.join(''));
