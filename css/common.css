@@ -326,7 +326,7 @@ background: #FF7070;
   justify-content: flex-start;
   gap: 44px;
   width: 486px; 
-  height: 134px;
+  height: 100%;
   margin-top: 16px;
   padding: 32px;
   border-radius: 8px;
